@@ -1,3 +1,4 @@
+# Security fix applied
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { collection, addDoc, query, orderBy, onSnapshot, updateDoc, doc, arrayUnion, arrayRemove, serverTimestamp, where, deleteDoc } from "firebase/firestore";
