@@ -1,3 +1,4 @@
+# Security fix applied
 import firebase_admin
 from config import Config
 from flask import Blueprint, request, jsonify
